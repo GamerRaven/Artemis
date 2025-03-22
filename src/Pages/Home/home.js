@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 
 import './home.css';
 
-const ArtemisHomepage = () => {
+export default function ArtemisHomepage(){
   return (
     <div className="relative h-screen w-full overflow-hidden bg-black text-white">
       <Canvas>
@@ -57,5 +57,3 @@ const ArtemisHomepage = () => {
     </div>
   );
 };
-
-export default ArtemisHomepage;

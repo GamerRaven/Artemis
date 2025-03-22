@@ -1,37 +1,31 @@
-body, html, #root {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .simulation-container {
+.simulation-container {
+    position: relative;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    background-color: black;
   }
   
-  .simulation-title {
+  .telemetry-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 30, 0.8);
     color: white;
-    text-align: center;
-    margin: 1rem 0;
-    font-size: 2rem;
-  }
-  
-  canvas {
-    flex: 1;
-  }
-  
-  .info-overlay {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 10px;
-    font-size: 0.9rem;
-    max-width: 300px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    pointer-events: auto;
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
   }
   
+  .telemetry-panel h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #00bfff;
+  }
+  
+  .telemetry-panel p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+  }  
