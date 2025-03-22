@@ -48,7 +48,7 @@ export default function ArtemisHomepage(){
             <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 text-lg rounded-2xl shadow-lg button_one" href="/mission">
               Explore the Mission
             </Button>
-            <Button className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 text-lg rounded-2xl shadow-lg button_two">
+            <Button className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 text-lg rounded-2xl shadow-lg button_two" href="/simulation">
               View 3D Model
             </Button>
           </motion.div>

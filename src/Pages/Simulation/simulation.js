@@ -4,6 +4,8 @@ import { OrbitControls, useGLTF, Sphere, Html } from "@react-three/drei";
 import * as THREE from "three";
 import "./simulation.css";
 
+import Header from "../../Components/Header/header.js";
+
 function ArtemisModel() {
   const { scene } = useGLTF("/artemis.glb");
   return <primitive object={scene} scale={[0.05, 0.05, 0.05]} />;
@@ -58,6 +60,7 @@ export default function ArtemisSimulation() {
 
   return (
     <div className="simulation-container">
+      <Header />
       <div className="telemetry-panel">
         <h2>🚀 Artemis I Mission</h2>
         <p><strong>Mission Day:</strong> {telemetry.day} / 25.5</p>

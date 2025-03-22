@@ -1,31 +1,31 @@
 .simulation-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background-color: black;
-  }
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
   
-  .telemetry-panel {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background: rgba(0, 0, 30, 0.8);
-    color: white;
-    padding: 15px 20px;
-    border-radius: 10px;
-    font-family: 'Segoe UI', sans-serif;
-    z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
-  }
+.telemetry-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 30, 0.8);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
+}
+
+.telemetry-panel h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  color: #00bfff;
+}
   
-  .telemetry-panel h2 {
-    margin: 0 0 10px 0;
-    font-size: 1.2rem;
-    color: #00bfff;
-  }
-  
-  .telemetry-panel p {
-    margin: 4px 0;
-    font-size: 0.95rem;
-  }  
+.telemetry-panel p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}  
